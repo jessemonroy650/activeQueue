@@ -32,13 +32,13 @@ My original extension was:
 
 The Correct extension is:
 
-<code>
+<tty>
   /* Returns any valid item on the queue - given the index.
   */
   this.look = function(n){
     return ((n >= 0 && n <= queue.length) ? queue[n + offset] : undefined);
   }
-</code>
+</tty>
 
 The extension allows one to look and modify and item in the queue.
 
