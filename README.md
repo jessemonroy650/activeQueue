@@ -26,7 +26,7 @@ My original extension was:
   /* Returns any valid item on the queue - given the index.
   */
   this.look = function(n){
-    return ((n >= 0 && n <= queue.length) ? queue[n] : undefined);
+    return ((n &gt;= 0 && n &lt;= queue.length) ? queue[n] : undefined);
   }
 </pre>
 
@@ -36,7 +36,7 @@ The Correct extension is:
   /* Returns any valid item on the queue - given the index.
   */
   this.look = function(n){
-    return ((n >= 0 && n <= queue.length) ? queue[n + offset] : undefined);
+    return ((n &gt;= 0 && n &lt;= queue.length) ? queue[n + offset] : undefined);
   }
 </pre>
 
