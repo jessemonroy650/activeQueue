@@ -22,19 +22,23 @@ it. I realized I did not when side effects appeared.
 
 My original extension was:
 
+<code>
   /* Returns any valid item on the queue - given the index.
   */
   this.look = function(n){
     return ((n >= 0 && n <= queue.length) ? queue[n] : undefined);
   }
+</code>
 
 The Correct extension is:
 
+<code>
   /* Returns any valid item on the queue - given the index.
   */
   this.look = function(n){
     return ((n >= 0 && n <= queue.length) ? queue[n + offset] : undefined);
   }
+</code>
 
 The extension allows one to look and modify and item in the queue.
 
