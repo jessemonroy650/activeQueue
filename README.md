@@ -6,7 +6,9 @@ an example of extending Javascript queues by Stephen Morley
 http://code.stephenmorley.org/javascript/queues/
 
 My live example can be viewed at:
+
 http://munibox.altervista.org/examples/activeQueue/
+
 NOTE: This sub-domain will move in the near future.
 
 I had a task. Create a visual for phone calling queue.
