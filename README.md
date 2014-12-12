@@ -22,13 +22,13 @@ it. I realized I did not when side effects appeared.
 
 My original extension was:
 
-<code>
+<pre>
   /* Returns any valid item on the queue - given the index.
   */
   this.look = function(n){
     return ((n >= 0 && n <= queue.length) ? queue[n] : undefined);
   }
-</code>
+</pre>
 
 The Correct extension is:
 
@@ -39,6 +39,7 @@ The Correct extension is:
     return ((n >= 0 && n <= queue.length) ? queue[n + offset] : undefined);
   }
 </pre>
+
 
 The extension allows one to look and modify and item in the queue.
 
