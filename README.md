@@ -41,7 +41,7 @@ The Correct extension is:
 The extension allows one to look and modify items in the queue.
 
 ## Adendeum ##
-
+* Corrections made in the queue pacing.
 
 
 
